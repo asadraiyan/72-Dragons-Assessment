@@ -217,6 +217,45 @@ body {
 .works-heading {
   font-size: 35px;
 }
+.works-item-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 80vh;
+}
+.work-item-container {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid yellow; */
+  width: 100%;
+  justify-content: center;
+  gap: 50px;
+}
+.work-item-img {
+  width: 600px;
+  height: 400px;
+}
+.work-item-details {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  padding-top: 50px;
+}
+.art-info {
+  margin-top: 10px;
+}
+.artist {
+  font-weight: bold;
+  font-size: 18px;
+}
+.art-title {
+  font-size: 30px;
+}
+.art-p {
+  font-size: 23px;
+}
 @media (max-width: 1200px) {
   .img-box {
     justify-content: space-evenly;
