@@ -449,7 +449,7 @@ body {
     letter-spacing: 1px;
   }
   .works {
-    height: 150vh;
+    height: 108vh;
   }
   .works h1 {
     font-size: 22px;
@@ -470,7 +470,10 @@ body {
     height: 225px;
   }
   .works-item-section {
-    height: 75vh;
+    height: 60vh;
+  }
+  .works-page {
+    height: 210vh;
   }
   .art-title {
     font-size: 22px;
@@ -501,7 +504,7 @@ body {
     width: 225px;
   }
   .about {
-    height: 100vh;
+    height: 75vh;
   }
   .about-pic {
     width: 350px;
