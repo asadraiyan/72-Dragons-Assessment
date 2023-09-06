@@ -326,7 +326,19 @@ body {
     width: 500px;
     height: 300px;
   }
+  .container {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .about {
+    height: 110vh;
+  }
+  .about-heading {
+    width: 100%;
+    padding-left: 20px;
+  }
 }
+
 @media (max-width: 800px) {
   .work-img-box {
     flex-direction: column;
@@ -337,6 +349,27 @@ body {
   }
   .works-heading {
     margin-top: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .work-item-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    align-items: center;
+  }
+  .work-item-details {
+    padding: 20px;
+  }
+  .works-item-section {
+    height: 94vh;
+  }
+  #navbar ul {
+    width: 300px;
+  }
+  .about-pic {
+    width: 500px;
+    height: 375px;
   }
 }
 
@@ -367,6 +400,26 @@ body {
   .works-heading {
     font-size: 30px;
   }
+  .work-item-img {
+    width: 350px;
+    height: 300px;
+  }
+  .art-title {
+    font-size: 25px;
+  }
+  .art-p {
+    font-size: 20px;
+  }
+  .artist {
+    font-size: 16px;
+  }
+  #navbar ul {
+    width: 250px;
+  }
+  .about-pic {
+    width: 400px;
+    height: 300px;
+  }
 }
 @media (max-width: 450px) {
   #navbar {
@@ -392,8 +445,8 @@ body {
     font-size: 13px;
   }
   .logo {
-    font-size: 16px;
-    letter-spacing: 1.5px;
+    font-size: 15px;
+    letter-spacing: 1px;
   }
   .works {
     height: 150vh;
@@ -410,6 +463,58 @@ body {
     margin-bottom: 25px;
   }
   .works-heading {
+    font-size: 22px;
+  }
+  .work-item-img {
+    width: 300px;
+    height: 225px;
+  }
+  .works-item-section {
+    height: 75vh;
+  }
+  .art-title {
+    font-size: 22px;
+  }
+  .art-p {
+    font-size: 18px;
+  }
+  .artist {
+    font-size: 14px;
+  }
+  #navbar ul {
+    width: 200px;
+  }
+  #navbar ul li a {
+    font-size: 18px;
+  }
+  #close {
+    font-size: 20px;
+  }
+  #mobile i {
+    font-size: 23px;
+  }
+  .about-title {
+    font-size: 27px;
+  }
+  .about-underline {
+    border-bottom: 5px solid rgb(245, 188, 206);
+    width: 225px;
+  }
+  .about {
+    height: 100vh;
+  }
+  .about-pic {
+    width: 350px;
+    height: 250px;
+  }
+  .about h1 {
     font-size: 25px;
+    margin-bottom: 8px;
+  }
+  .heading {
+    width: 175px;
+  }
+  .para {
+    font-size: 14px;
   }
 }
